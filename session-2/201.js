@@ -1,4 +1,4 @@
-// Session 2 (v2) - Exercise 1
+// Session 1 (v2) - Exercise 1
 
 /** Quick-fire 1 */
 // var a = 1;
