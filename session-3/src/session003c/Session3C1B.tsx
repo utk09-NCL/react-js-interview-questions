@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useEffect, useState } from "react";
 
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -38,7 +39,7 @@ const TodoResult = ({ todoId }: any) => {
   );
 };
 
-const Session4A1B = () => {
+const Session3C1B = () => {
   const [todoId, setTodoId] = useState("1");
 
   return (
@@ -53,4 +54,4 @@ const Session4A1B = () => {
   );
 };
 
-export default Session4A1B;
+export default Session3C1B;

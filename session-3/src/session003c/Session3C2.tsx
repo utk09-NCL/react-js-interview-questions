@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Session4A2 = () => {
+const Session3C2 = () => {
   const [todos, setTodos] = useState([
     { id: 1, text: "Learn React" },
     { id: 2, text: "Build app" },
@@ -27,4 +27,4 @@ const Session4A2 = () => {
   );
 };
 
-export default Session4A2;
+export default Session3C2;

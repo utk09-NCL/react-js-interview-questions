@@ -1,6 +1,6 @@
 import { useState, type ChangeEvent } from "react";
 
-const Session4A3 = () => {
+const Session3C3 = () => {
   const [query, setQuery] = useState("");
   // const [results, setResults] = useState("");
 
@@ -19,4 +19,4 @@ const Session4A3 = () => {
   );
 };
 
-export default Session4A3;
+export default Session3C3;

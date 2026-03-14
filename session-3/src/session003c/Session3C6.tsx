@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-const Session4A6 = () => {
+const Session3C6 = () => {
   const [count, setCount] = useState(0);
   const countRef = useRef(count);
 
@@ -24,4 +24,4 @@ const Session4A6 = () => {
   );
 };
 
-export default Session4A6;
+export default Session3C6;

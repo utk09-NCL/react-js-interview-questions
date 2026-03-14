@@ -37,7 +37,7 @@ const SearchResults = ({ query }: { query: string }) => {
   );
 };
 
-const Session4A1 = () => {
+const Session3C1 = () => {
   const [query, setQuery] = useState("react");
 
   return (
@@ -48,4 +48,4 @@ const Session4A1 = () => {
   );
 };
 
-export default Session4A1;
+export default Session3C1;

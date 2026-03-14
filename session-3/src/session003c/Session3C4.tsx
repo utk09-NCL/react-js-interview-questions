@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const Session4A4 = () => {
+const Session3C4 = () => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
@@ -12,7 +12,7 @@ const Session4A4 = () => {
   }, []);
 
   console.log("tick, count is:", count);
-  
+
   return (
     <div>
       <p>Count: {count}</p>
@@ -20,4 +20,4 @@ const Session4A4 = () => {
   );
 };
 
-export default Session4A4;
+export default Session3C4;

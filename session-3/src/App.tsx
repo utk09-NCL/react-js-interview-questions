@@ -6,6 +6,13 @@ import Session3B2 from "./session003b/Session3B2";
 import Session3B3 from "./session003b/Session3B3";
 import Session3B4 from "./session003b/Session3B4";
 import Session3B5 from "./session003b/Session3B5";
+import Session3C1 from "./session003c/Session3C1";
+import Session3C1B from "./session003c/Session3C1B";
+import Session3C2 from "./session003c/Session3C2";
+import Session3C3 from "./session003c/Session3C3";
+import Session3C4 from "./session003c/Session3C4";
+import Session3C5 from "./session003c/Session3C5";
+import Session3C6 from "./session003c/Session3C6";
 
 const App = () => {
   return (
@@ -19,6 +26,13 @@ const App = () => {
       {/* <Session3B3 /> */}
       {/* <Session3B4 /> */}
       {/* <Session3B5 /> */}
+      {/* <Session3C1 /> */}
+      {/* <Session3C1B /> */}
+      {/* <Session3C2 /> */}
+      {/* <Session3C3 /> */}
+      {/* <Session3C4 /> */}
+      {/* <Session3C5 /> */}
+      {/* <Session3C6 /> */}
     </div>
   );
 };
