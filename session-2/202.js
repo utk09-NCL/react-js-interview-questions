@@ -43,11 +43,10 @@
 // console.log("D");
 
 ////5.
-Promise.resolve(1)
-  .then(x => x + 1)
-  .then(x => x + 1)
-  .then(x => { x + 1 }) // this throws an error bcoz no explicit return
-  .then(x => x + 1)
-  .then(x => console.log(x));
+// Promise.resolve(1)
+//   .then(x => x + 1)
+//   .then(x => x + 1)
+//   .then(x => { x + 1 }) // this throws an error bcoz no explicit return
+//   .then(x => x + 1)
+//   .then(x => console.log(x));
 
-////6.
