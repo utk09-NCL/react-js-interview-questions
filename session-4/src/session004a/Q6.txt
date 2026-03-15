@@ -1,0 +1,22 @@
+// Q6: Is there anything wrong with this component?
+import { useState } from "react";
+
+export default function Q6() {
+  const [name, setName] = useState("");
+  const [showExtra, setShowExtra] = useState(false);
+
+  if (showExtra) {
+    const [inside, setInside] = useState("");
+    void inside;
+    void setInside;
+  }
+
+  return (
+    <div>
+      <input value={name} onChange={(e) => setName(e.target.value)} />
+      <button className="primary" onClick={() => setShowExtra((s) => !s)}>
+        Toggle extra
+      </button>
+    </div>
+  );
+}
