@@ -1,10 +1,10 @@
-import Q7 from "./session004a/Q7";
+import Q8 from "./session004b/Q8";
 
 const App = () => {
   return (
     <div>
       <h1>Session 3 & 4 (v2)</h1>
-      <Q7 />
+      <Q8 />
     </div>
   );
 };
