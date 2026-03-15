@@ -1,0 +1,40 @@
+export default function RF1() {
+  function run() {
+
+    async function foo() {
+      console.log("1");
+      await Promise.resolve();
+      console.log("2");
+    }
+
+    console.log("3");
+    foo();
+    console.log("4");
+  }
+
+  return <button className="primary" onClick={run}>Run</button>;
+}
+
+
+export default function RF2() {
+  function run() {
+    console.log("[] == false:", [] == false);
+    console.log("[] == ![]:", [] == ![]);
+    console.log('"" == 0:', "" == 0);
+    console.log("null == undefined:", null == undefined);
+    console.log("null == 0:", null == 0);
+  }
+
+  return <button className="secondary" onClick={run}>Run</button>;
+}
+
+import { useState } from "react";
+export default function RF3() {
+  const [count, setCount] = useState(0);
+
+  setInterval(() => {
+    setCount(count + 1);
+  }, 1000);
+
+  return <p>Count: {count}</p>;
+}
